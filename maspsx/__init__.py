@@ -847,7 +847,7 @@ class MaspsxProcessor:
                             # through $at, which covers the hazard
                             res.extend(
                                 [
-                                    expand_move(inst),
+                                    inst,
                                     "#nop  # DEBUG: mflo/mfhi with mult/div/rem and instruction expands through $at",
                                 ]
                             )
